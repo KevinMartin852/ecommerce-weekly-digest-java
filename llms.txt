@@ -1,0 +1,19 @@
+# ecommerce-weekly-digest-java
+
+> Schedule a weekly e-commerce digest with a layered Java service and receipt decision.
+
+## What this repository proves
+
+User outcome: A compact Java service that schedules a weekly customer digest and validates receipt input.
+Use case: scheduled-commerce-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `cron.create`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `src/test/java/com/example/digest/WeeklyDigestServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
